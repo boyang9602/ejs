@@ -10,7 +10,7 @@ Originally, t only supported these tags below:
 `%%>` Outputs a literal `%>`  
 `%>` Plain ending tag  
   
-Now it supports `-%>` which can eliminate the blank line this line left in the generated file.  
+Now it supports `-%>` which can eliminate the blank line that this line leaves in the generated file.  
 It will ignore anything from `<% ... -%>` to the first `\n` after it.  
 eg:  
 `<% if(true) {-%>`  
@@ -20,7 +20,6 @@ will generate
 hello  
 However if you use `<% ... %>` instead of `<% ... -%>`  
 it will generate  
-
 [blank line]  
 hello  
 [blank line]  
