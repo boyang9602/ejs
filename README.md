@@ -2,8 +2,8 @@
 modified ejs.min.js to support a new feature  
 
 ## tags
-Originally, it only supported these tags below:  
-`<%` 'Scriptlet' tag, for control-flow, no output  
+Originally, it only supported these tags below:  
+`<%` 'Scriptlet' tag, for control-flow, no output  
 `<%=` Outputs the value into the template (escaped)  
 `<%#` Comment tag, no execution, no output  
 `<%%` Outputs a literal `<%`  
