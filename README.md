@@ -22,4 +22,5 @@ However if you use `<% ... %>` instead of `<% ... -%>`  
 it will generate  
 [blank line]  
 hello  
-[blank line]  
+[blank line] 
+ 
